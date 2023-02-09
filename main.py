@@ -1,4 +1,9 @@
+# import tabulate
+from backlogInterface import ProductBacklog
 
+product = ProductBacklog()
 exit = False
 while exit == False:
-  printOptions()
+  exit = product.options_menu()
+  # match
+
